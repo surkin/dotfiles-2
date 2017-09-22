@@ -50,7 +50,7 @@ echo ""
 
 # Build key,value pairs of the tool and whether or not to install it
 # each tuple lists a directory and its install flag
-tuples="bash,Y gem,Y git,Y openconnect,Y tmux,Y slate,Y hg,N textmate,N"
+tuples="bash,Y gem,Y git,Y openconnect,Y tmux,Y slate,Y"
 
 # For these directories, create symlinks for each file present
 # By passing the ask function `Y` we default to creating these

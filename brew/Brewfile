@@ -1,41 +1,162 @@
-# A few of my favorite brews
-
-# Make sure we’re using the latest Homebrew
-update
-
-# Upgrade any already-installed formulae
-upgrade
-
-# tmux, requires `reattach-to-user-namespace`
-install reattach-to-user-namespace
-install tmux
-
-# Version Control
-install git
-install mercurial
-
-# Editor
-install vim
-
-# For compiling older libraries
-tap homebrew/dupes
-install apple-gcc42
-
-# Utilities
-install archey
-install wget
-install youtube-dl
-install openssl
-install htop-osx
-
-# HandBrake required library
-install libdvdcss
-
-# OpenConnect
-install openconnect
-
-# Cleanup any outdated formulas from the cellar
-cleanup
-
-# Ask the doctor how things are
-doctor
+tap "buo/cask-upgrade"
+tap "caskroom/cask"
+tap "caskroom/drivers"
+tap "caskroom/eid"
+tap "caskroom/fonts"
+tap "caskroom/versions"
+tap "heroku/brew"
+tap "homebrew/aliases"
+tap "homebrew/bundle"
+tap "homebrew/command-not-found"
+tap "homebrew/core"
+tap "homebrew/nginx"
+tap "homebrew/services"
+tap "linuxkit/linuxkit"
+tap "neomutt/neomutt"
+tap "vitorgalvao/tiny-scripts"
+cask "java"
+cask "xquartz"
+brew "ack"
+brew "automake"
+brew "bashdb"
+brew "caddy"
+brew "libffi"
+brew "cmake"
+brew "coreutils"
+brew "cscope"
+brew "ctags", args: ["HEAD"]
+brew "curl", args: ["with-c-ares"]
+brew "direnv"
+brew "dnsmasq"
+brew "duti"
+brew "git"
+brew "ffmpeg", args: ["with-libvidstab", "with-libvpx", "with-openssl", "with-rubberband", "with-tools", "with-x265"]
+brew "git-credential-manager"
+brew "openssl"
+brew "python"
+brew "gmp"
+brew "libusb"
+brew "gnupg"
+brew "go"
+brew "graphviz"
+brew "grip"
+brew "lua"
+brew "python3"
+brew "httpie"
+brew "hub"
+brew "iproute2mac"
+brew "jq"
+brew "libav", args: ["with-fontconfig", "with-frei0r", "with-gnutls", "with-libvo-aacenc", "with-opencore-amr", "with-openssl", "with-rtmpdump", "with-schroedinger", "with-sdl", "with-speex", "with-theora"]
+brew "libcdio"
+brew "libev"
+brew "libtensorflow"
+brew "libyaml"
+brew "lzlib"
+brew "m-cli"
+brew "macvim"
+brew "mas"
+brew "moreutils"
+brew "mpv", args: ["with-bundle", "with-rubberband", "with-uchardet", "with-vapoursynth"]
+brew "nmap"
+brew "opam"
+brew "p7zip"
+brew "packer"
+brew "packer-completion"
+brew "pandoc"
+brew "pgcli"
+brew "phantomjs"
+brew "postgresql"
+brew "rbenv"
+brew "rbenv-aliases"
+brew "rbenv-bundle-exec"
+brew "rbenv-communal-gems"
+brew "rbenv-ctags"
+brew "rbenv-default-gems"
+brew "rbenv-gemset"
+brew "rbenv-whatis"
+brew "rbenv-use"
+brew "rbenv-vars"
+brew "ripgrep"
+brew "rust"
+brew "sdl2"
+brew "shellcheck"
+brew "shfmt"
+brew "socat"
+brew "terminal-notifier"
+brew "tmux"
+brew "tree"
+brew "uncrustify"
+brew "watchman"
+brew "wget"
+brew "zlib"
+brew "zsh-completions"
+brew "zsh-history-substring-search"
+brew "zsh-lovers"
+brew "zsh-syntax-highlighting"
+brew "zshdb"
+brew "heroku/brew/heroku-node"
+brew "heroku/brew/heroku"
+brew "vitorgalvao/tiny-scripts/cask-repair"
+brew "vitorgalvao/tiny-scripts/ubuntu-usb"
+cask "alfred"
+cask "bettertouchtool"
+cask "cleanmymac"
+cask "dash"
+cask "docker"
+cask "dropbox"
+cask "duet"
+cask "firefoxdeveloperedition"
+cask "font-awesome-terminal-fonts"
+cask "font-inconsolata"
+cask "google-chrome"
+cask "gpgtools-nightly"
+cask "iina"
+cask "intel-power-gadget"
+cask "jdownloader"
+cask "launchcontrol"
+cask "ngrok"
+cask "onyx"
+cask "qlcolorcode"
+cask "qlmarkdown"
+cask "qlswift"
+cask "qlvideo"
+cask "quicklook-csv"
+cask "quicklook-json"
+cask "scriptql"
+cask "skype"
+cask "suspicious-package"
+cask "teamviewer"
+cask "unetbootin"
+cask "vagrant"
+cask "vagrant-manager"
+cask "virtualbox"
+cask "virtualbox-extension-pack"
+cask "visual-studio-code-insiders"
+cask "vlc-nightly"
+cask "whatroute"
+cask "wifi-explorer"
+cask "zoom"
+mas "App for Instagram", id: 954338382
+mas "Button", id: 1155342767
+mas "Colors", id: 581915465
+mas "DrCleaner", id: 921458519
+mas "DrUnarchiver", id: 1127253508
+mas "Duplicates Cleaner", id: 1012324495
+mas "Explorer for GitHub", id: 1025971329
+mas "Gemini 2", id: 1090488118
+mas "Go for Instagram", id: 980329862
+mas "Grids", id: 963509558
+mas "InstagramUploader", id: 1049655419
+mas "IP Scanner", id: 404167149
+mas "iStat Mini", id: 927292435
+mas "Mactracker", id: 430255202
+mas "Memory Clean 2", id: 1114591412
+mas "Nisus Thesaurus", id: 471448642
+mas "Numbers", id: 409203825
+mas "Open Any Files", id: 1250827715
+mas "Pages", id: 409201541
+mas "Shazam", id: 897118787
+mas "SNMP Test Utility", id: 441785756
+mas "Templates Studio - Themes for iBooks Author", id: 527161787
+mas "Trello", id: 1278508951
+mas "Trend Micro Antivirus", id: 1068435535

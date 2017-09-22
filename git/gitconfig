@@ -1,9 +1,9 @@
 [user]
-    name = Mark Nichols
-    email = mark@zanshin.net
+    name = Thomas Kobert
+    email = tkobert@icloud.com
 
 [github]
-    user = zanshin
+    user = surkin
 
 [color]
     ui = auto
@@ -29,7 +29,7 @@
     editor = vim 
     autocrlf = input
     safecrlf = warn
-    excludesfile = /Users/mark/.gitignore_global
+    excludesfile = /Users/surkin/.gitignore_global
     quotepath = false
   	pager = less -R
 

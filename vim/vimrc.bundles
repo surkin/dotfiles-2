@@ -34,10 +34,10 @@ Plug 'kien/ctrlp.vim'
 Plug 'benmills/vimux'
 
 " ----- Markdown
-" Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
-" Plug 'reedes/vim-pencil', { 'for': 'markdown' }
+Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
+Plug 'reedes/vim-pencil', { 'for': 'markdown' }
 
-call plug#end() 
+call plug#end()
 
 " turn things on
 if has('autocmd')
@@ -104,12 +104,12 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline_theme='dark'
 
 " enable tender airline theme
-"let g:tender_airline = 1
-" set airline theme
-"let g:airline_theme = 'tender'
+let g:tender_airline = 1
+set airline theme
+let g:airline_theme = 'tender'
 
 " Oceanic-Next
-" let g:airline_theme='oceanicnext'
+let g:airline_theme='oceanicnext'
 
 " }}}
 " Control-P {{{
@@ -162,11 +162,11 @@ let g:goyo_height=90
 
 " }}}
 " Pencil {{{
-" augroup pencil
-"   autocmd!
-"   autocmd FileType markdown,mkd call pencil#init()
-"   autocmd FileType text         call pencil#init()
-" augroup END
+augroup pencil
+  autocmd!
+  autocmd FileType markdown,mkd call pencil#init()
+  autocmd FileType text         call pencil#init()
+augroup END
 
 " }}}
 " indentLine {{{
