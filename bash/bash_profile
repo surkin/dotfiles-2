@@ -61,7 +61,7 @@ fi
 
 export PATH
 
-source "/Users/surkin/perl5/perlbrew/etc/bashrc"
+source "${HOME}/perl5/perlbrew/etc/bashrc"
 # -------------------------------------------------------------------
 # Enable rbenv
 # -------------------------------------------------------------------
@@ -69,3 +69,4 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # finis
 # mhn 2016.1.9
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion

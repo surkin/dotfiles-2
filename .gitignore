@@ -21,3 +21,4 @@ nvim/tmp
 # Ignore bash_history
 bash/bash_history
 .DS_Store
+.vscode/settings.json

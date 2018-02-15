@@ -40,9 +40,9 @@ if ! test -z "$ctafconf_profiles" ; then
   done
 fi
 
-<<<<<<< HEAD
+#<<<<<<< HEAD
 [ -f ~/.bashrc.user ] && source ~/.bashrc.user
-=======
+#=======
 # export EDITOR, PAGER, and LESS
 export VISUAL=vim
 export EDITOR="$VISUAL"
@@ -50,7 +50,7 @@ export PAGER=less
 export LESS="-M -n -q -i -r"
 
 # Go path
-export GOPATH=$HOME/code/go
+export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:/usr/local/go/bin
 
@@ -186,5 +186,5 @@ export LESS_TERMCAP_se=$'\E[0m'          # end standout-mode
 export LESS_TERMCAP_so=$'\E[01;44;33m'   # begin standout-mode - info box
 export LESS_TERMCAP_ue=$'\E[0m'          # end underline
 export LESS_TERMCAP_us=$'\E[01;32m'      # begin underline
->>>>>>> 05068f4522a4e4af49d4bf55bf191f4216571ec7
+#>>>>>>> 05068f4522a4e4af49d4bf55bf191f4216571ec7
 

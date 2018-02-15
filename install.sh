@@ -38,7 +38,7 @@ ask() {
   done
 }
 
-dotfiles_dir="$HOME/Projects/dotfiles-2"
+dotfiles_dir="$pwd"
 
 # Update dotfiles to master branch
 echo "Updating $dotfiles_dir to master"
@@ -91,6 +91,7 @@ echo ""
 # Setup ssh
 if ask "Setp ssh config" Y; then
   echo "Linking ssh config"
+  mkdir -p ${HOME}/.ssh
   ln -sf $dotfiles_dir/ssh/config ${HOME}/.ssh/config
 fi
 
