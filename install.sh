@@ -38,7 +38,7 @@ ask() {
   done
 }
 
-dotfiles_dir=~/.dotfiles
+dotfiles_dir="$HOME/Projects/dotfiles-2"
 
 # Update dotfiles to master branch
 echo "Updating $dotfiles_dir to master"

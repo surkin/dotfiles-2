@@ -5,7 +5,7 @@
 #
 
 # Variables
-dotfiles_dir=~/.dotfiles
+dotfiles_dir="$HOME/Projects/dotfiles-2"
 dirs="bash gem git openconnect tmux"
 
 # Update dotfiles to master branch
